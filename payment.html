@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstarp css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- font css -->
+    <link rel="stylesheet" href="./fonts/font.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="transfer">
+            <div
+                class="transfer-wrapper gap-0 h-100 d-flex flex-lg-row flex-column align-items-center justify-content-center">
+                <div
+                    class="com-logo col-12 col-lg-4 gap-5 d-flex align-items-center justify-content-center flex-column column-gap-3">
+                    <div class="logo d-flex flex-column align-items-center justify-content-center gap-2">
+                        <img src="./img/logo.svg" alt="logo">
+                        <p>NEVER WAIT IN A PHARMACY LINE</p>
+                    </div>
+                    <div class="com-img d-none d-lg-block">
+                        <img src="./img/mednrx.png" alt="mednrx">
+                    </div>
+                </div>
+
+                <div class="transfer-box h-100 col-lg-8 col-12 bg-white pb-5 active">
+                    <div class="com-title text-center py-lg-4 px-3 py-3 ">
+                        <h1>Welcome Jones Gray</h1>
+                    </div>
+                    <div class="transfer-content payment-content">
+                        <div class="transfer-content-box py-5 d-flex flex-column gap-4 ">
+                            <img src="./img/checkbar.svg" alt="checkbar">
+                            <div class="check-text main text-center">
+                                <p>For the privacy of your information, Please enter your DOB to verify your account</p>
+                            </div>
+                            <form action="" class="d-flex flex-column gap-4 text-left">
+                                <div class="i-fild d-flex flex-column gap-1 text-left align-items-start w-100">
+                                    <input type="date" name="dob" placeholder="mm/dd/yyyy" id="dob">
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div
+                        class="com-btn d-flex align-items-center justify-content-between px-lg-5 px-3 flex-sm-row flex-column-reverse gap-2">
+                        <div class="back-btn">
+                            <a href="#" aria-label="" class="btn btn-gray">Back to Home</a>
+                        </div>
+                        <div class="next-btn">
+                            <a href="#" aria-label="" class="btn btn-primary">Verify</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transfer-box h-100 col-lg-8 col-12 bg-white pb-5 ">
+                    <div class="com-title text-center py-lg-4 px-3 py-3 ">
+                        <h1>Welcome Jones Gray</h1>
+                    </div>
+                    <div class="transfer-content payment-content">
+                        <div class="transfer-content-box py-5 d-flex flex-column gap-4 ">
+                            <img src="./img/checkbar.svg" alt="checkbar">
+                            <div class="check-text main text-center">
+                                <p>For the privacy of your information, Please enter your DOB to verify your account</p>
+                            </div>
+                            <form action="" class="d-flex flex-column gap-4 text-left">
+                                <div class="i-fild d-flex flex-column gap-1 text-left align-items-start w-100">
+                                    <input type="date" name="dob" placeholder="mm/dd/yyyy" id="dob"><span class="mt-2"
+                                        id="error-message">Please verify your date
+                                        of birth</span>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div
+                        class="com-btn d-flex align-items-center justify-content-between px-lg-5 px-3 flex-sm-row flex-column-reverse gap-2">
+                        <div class="back-btn">
+                            <a href="#" aria-label="" class="btn btn-gray">Back to Home</a>
+                        </div>
+                        <div class="next-btn">
+                            <a href="#" aria-label="" class="btn btn-primary" id="verify-btn">Verify</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transfer-box h-100 col-lg-8 col-12 bg-white pb-5 ">
+                    <div class="com-title text-center py-lg-4 px-3 py-3 ">
+                        <h1>Welcome Jones Gray</h1>
+                    </div>
+                    <div class="transfer-content payment-content">
+                        <div class="py-check p-sm-5 p-4 d-flex flex-column gap-3">
+                            <div class="check-texts">
+                                <p>Your prescription cart</p>
+                            </div>
+                            <div class="check-outs d-flex flex-column gap-3">
+                                <div class="check-out">
+                                    <div class="check-out-title d-flex gap-3 align-items-center flex-wrap">
+                                        <p>Amlodipine 10mg tablet</p>
+                                        <div class="check-out-tag">
+                                            Rx : 5-185-0
+                                        </div>
+                                    </div>
+                                    <div class="check-out-details">
+                                        <div
+                                            class="check-text d-flex flex-column-reverse flex-sm-column gap-1 float-start">
+                                            <p>Total Price
+                                                :
+                                                <span> $0.56</span>
+                                            </p>
+
+                                            <p>Estimated Patient Pay
+                                                :
+                                                <span> $0.56</span></span>
+                                            </p>
+                                        </div>
+                                        <div class="check-btn float-end my-2">
+                                            <a href="#" class="ph-btn" aria-label="">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="check-out">
+                                    <div class="check-out-title d-flex gap-3 align-items-center flex-wrap">
+                                        <p>Tynelol 15mg tablet</p>
+                                        <div class="check-out-tag">
+                                            Rx : 4-105-0
+                                        </div>
+                                    </div>
+                                    <div class="check-out-details">
+                                        <div
+                                            class="check-text d-flex flex-column-reverse flex-sm-column gap-1 float-start">
+                                            <p>Total Price
+                                                :
+                                                <span> $0.46</span>
+                                            </p>
+
+                                            <p>Estimated Patient Pay
+                                                :
+                                                <span> $0.46 </span></span>
+                                            </p>
+                                        </div>
+                                        <div class="check-btn float-end my-2">
+                                            <a href="#" class="ph-btn" aria-label="">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="com-btn d-flex align-items-center justify-content-between px-lg-5 px-3 flex-sm-row flex-column-reverse gap-2">
+                        <div class="back-btn">
+                            <a href="#" aria-label="" class="btn btn-gray">Back to Home</a>
+                        </div>
+                        <div class="next-btn">
+                            <a href="#" aria-label="" class="btn btn-primary">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transfer-box h-100 col-lg-8 col-12 bg-white pb-5 ">
+                    <div class="com-title text-center py-lg-4 px-3 py-3 ">
+                        <h1>Welcome Jones Gray</h1>
+                    </div>
+                    <div class="transfer-content payment-content">
+                        <div class="py-check p-sm-5 p-4 d-flex flex-column gap-3">
+                            <div class="check-texts">
+                                <p>Your prescription cart</p>
+                            </div>
+                            <div class="check-summary-box d-flex align-items-start flex-wrap">
+                                <div class="check-outs d-flex flex-column gap-3 ">
+                                    <div class="check-out">
+                                        <div class="check-out-title d-flex gap-3 align-items-center flex-wrap">
+                                            <p>Amlodipine 10mg tablet</p>
+                                            <div class="check-out-tag">
+                                                Rx : 5-185-0
+                                            </div>
+                                        </div>
+                                        <div class="check-out-details">
+                                            <div
+                                                class="check-text d-flex flex-column-reverse flex-sm-column gap-1 float-start">
+                                                <p>Total Price
+                                                    :
+                                                    <span> $0.56</span>
+                                                </p>
+
+                                                <p>Estimated Patient Pay
+                                                    :
+                                                    <span> $0.56</span></span>
+                                                </p>
+                                            </div>
+                                            <div class="check-btn float-end my-2">
+                                                <a href="#" class="ph-btn remove" aria-label="">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="check-out">
+                                        <div class="check-out-title d-flex gap-3 align-items-center flex-wrap">
+                                            <p>Tynelol 15mg tablet</p>
+                                            <div class="check-out-tag">
+                                                Rx : 4-105-0
+                                            </div>
+                                        </div>
+                                        <div class="check-out-details">
+                                            <div
+                                                class="check-text d-flex flex-column-reverse flex-sm-column gap-1 float-start">
+                                                <p>Total Price
+                                                    :
+                                                    <span> $0.46</span>
+                                                </p>
+
+                                                <p>Estimated Patient Pay
+                                                    :
+                                                    <span> $0.46 </span></span>
+                                                </p>
+                                            </div>
+                                            <div class="check-btn float-end my-2">
+                                                <a href="#" class="ph-btn remove" aria-label="">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="summary-box d-flex flex-column gap-3 ">
+                                    <div class="summary-title px-4">
+                                        <p>Summary</p>
+                                    </div>
+                                    <div class="summary-bills px-4 d-flex flex-column gap-2">
+                                        <div
+                                            class="summary-bill-list d-flex align-items-center gap-2 justify-content-between">
+                                            <p>Amlodipine 10 mg tab</p>
+                                            <div class="price">0.56</div>
+                                        </div>
+                                        <div
+                                            class="summary-bill-list d-flex align-items-center gap-2 justify-content-between">
+                                            <p>Tynelol</p>
+                                            <div class="price">0.36</div>
+                                        </div>
+                                    </div>
+                                    <div class="summary-total px-4 py-3">
+                                        <div
+                                            class="summary-bill-list d-flex align-items-center gap-2 justify-content-between">
+                                            <p>Total</p>
+                                            <div class="price">$0.92</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div
+                        class="com-btn d-flex align-items-center justify-content-between px-lg-5 px-3 flex-sm-row flex-column-reverse gap-2">
+                        <div class="back-btn">
+                            <a href="#" aria-label="" class="btn btn-gray">Back to Home</a>
+                        </div>
+                        <div class="next-btn">
+                            <a href="#" aria-label="" class="btn btn-primary">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transfer-box h-100 col-lg-8 col-12 bg-white pb-5 ">
+                    <div class="com-title text-center py-lg-4 px-3 py-3 ">
+                        <h1>Payment</h1>
+                    </div>
+                    <div class="transfer-content payment-content">
+                        <div class="py-check p-sm-5 p-4 d-flex flex-column gap-3">
+                            <div class="check-texts py-texts">
+                                <p>Total amount to be paid $0.56</p>
+                            </div>
+                            <div class="cards-tx">
+                                <p>Saved cards</p>
+                            </div>
+                            <div class="check-summary-box d-flex align-items-start flex-wrap">
+                                <div class="check-outs d-flex flex-column gap-3 ">
+                                    <div class="payment d-flex align-items-center gap-3 cursor-pointer">
+                                        <div class="py-icon d-flex align-items-center justify-content-center">
+                                            <img src="./img/visa.svg" alt="visa">
+                                            <div class="click">
+                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.11269 0.0446435C5.1734 0.164929 4.13133 0.533413 3.33555 1.02667C2.42 1.59416 1.59356 2.4206 1.02607 3.33615C0.650965 3.94135 0.30914 4.78695 0.152871 5.4963C-0.0533284 6.43225 -0.0535745 7.57139 0.152215 8.50231C0.310672 9.21907 0.670488 10.1006 1.05144 10.7053C1.44303 11.3269 2.06084 12.0252 2.59727 12.4526C3.52255 13.1897 4.6329 13.6968 5.76914 13.9011C6.61343 14.0528 7.66652 14.0322 8.50171 13.8476C9.5207 13.6223 10.5681 13.1183 11.402 12.452C11.7001 12.2138 12.2132 11.7007 12.4514 11.4026C13.2565 10.395 13.8244 9.06526 13.9471 7.90045C13.9635 7.74371 13.9883 7.59409 14.002 7.56798C14.0157 7.54186 14.026 7.25885 14.0248 6.93907C14.0236 6.61928 14.0151 6.37609 14.0059 6.39865C13.9966 6.42121 13.9734 6.30133 13.9542 6.13226C13.8156 4.91246 13.2495 3.58385 12.441 2.58132C12.0142 2.05211 11.3152 1.43652 10.7047 1.05215C9.8856 0.536503 8.82923 0.163015 7.84809 0.0422099C7.42511 -0.00987997 6.52859 -0.00862215 6.11269 0.0446435ZM9.84188 4.59103C9.77503 4.63454 8.87758 5.51421 7.84757 6.54587L5.97485 8.42162L5.08585 7.53445C4.19173 6.64214 4.096 6.56271 3.91493 6.56271C3.79402 6.56271 3.60781 6.67457 3.55033 6.78171C3.489 6.89609 3.48473 7.08366 3.54082 7.20181C3.60431 7.33561 5.67973 9.39528 5.80244 9.44624C5.93074 9.49956 6.0175 9.49959 6.14599 9.44641C6.26871 9.39558 10.3943 5.28606 10.4586 5.1506C10.5565 4.94423 10.4838 4.68977 10.2954 4.57936C10.1376 4.48685 9.99638 4.49049 9.84188 4.59103ZM0.0112575 6.98654C0.0112849 7.3174 0.0152224 7.449 0.0200349 7.27898C0.0248474 7.10896 0.02482 6.83825 0.0200075 6.67742C0.0151677 6.51658 0.0112302 6.65568 0.0112575 6.98654Z"
+                                                        fill="#8A9099" fill-opacity="0.7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="py-text flex-grow-1 ">
+                                            <p>**** **** ****</p>
+                                            <div class="dm-text">
+                                                <p>Valid till 10/2024</p>
+                                            </div>
+                                        </div>
+                                        <input type="radio" name="payment" id="" class="d-flex justify-content-end">
+                                    </div>
+
+                                    <div class="payment d-flex align-items-center gap-3 cursor-pointer">
+                                        <div class="py-icon d-flex align-items-center justify-content-center">
+                                            <img src="./img/visa.svg" alt="visa">
+                                            <div class="click">
+                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.11269 0.0446435C5.1734 0.164929 4.13133 0.533413 3.33555 1.02667C2.42 1.59416 1.59356 2.4206 1.02607 3.33615C0.650965 3.94135 0.30914 4.78695 0.152871 5.4963C-0.0533284 6.43225 -0.0535745 7.57139 0.152215 8.50231C0.310672 9.21907 0.670488 10.1006 1.05144 10.7053C1.44303 11.3269 2.06084 12.0252 2.59727 12.4526C3.52255 13.1897 4.6329 13.6968 5.76914 13.9011C6.61343 14.0528 7.66652 14.0322 8.50171 13.8476C9.5207 13.6223 10.5681 13.1183 11.402 12.452C11.7001 12.2138 12.2132 11.7007 12.4514 11.4026C13.2565 10.395 13.8244 9.06526 13.9471 7.90045C13.9635 7.74371 13.9883 7.59409 14.002 7.56798C14.0157 7.54186 14.026 7.25885 14.0248 6.93907C14.0236 6.61928 14.0151 6.37609 14.0059 6.39865C13.9966 6.42121 13.9734 6.30133 13.9542 6.13226C13.8156 4.91246 13.2495 3.58385 12.441 2.58132C12.0142 2.05211 11.3152 1.43652 10.7047 1.05215C9.8856 0.536503 8.82923 0.163015 7.84809 0.0422099C7.42511 -0.00987997 6.52859 -0.00862215 6.11269 0.0446435ZM9.84188 4.59103C9.77503 4.63454 8.87758 5.51421 7.84757 6.54587L5.97485 8.42162L5.08585 7.53445C4.19173 6.64214 4.096 6.56271 3.91493 6.56271C3.79402 6.56271 3.60781 6.67457 3.55033 6.78171C3.489 6.89609 3.48473 7.08366 3.54082 7.20181C3.60431 7.33561 5.67973 9.39528 5.80244 9.44624C5.93074 9.49956 6.0175 9.49959 6.14599 9.44641C6.26871 9.39558 10.3943 5.28606 10.4586 5.1506C10.5565 4.94423 10.4838 4.68977 10.2954 4.57936C10.1376 4.48685 9.99638 4.49049 9.84188 4.59103ZM0.0112575 6.98654C0.0112849 7.3174 0.0152224 7.449 0.0200349 7.27898C0.0248474 7.10896 0.02482 6.83825 0.0200075 6.67742C0.0151677 6.51658 0.0112302 6.65568 0.0112575 6.98654Z"
+                                                        fill="#8A9099" fill-opacity="0.7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="py-text flex-grow-1 ">
+                                            <p>**** **** ****</p>
+                                            <div class="dm-text">
+                                                <p>Valid through 12/2024</p>
+                                            </div>
+                                        </div>
+                                        <input type="radio" name="payment" id="" class="d-flex justify-content-end">
+                                    </div>
+                                </div>
+
+                                <div class="summary-box d-flex flex-column gap-3 ">
+                                    <div class="summary-title px-4">
+                                        <p>Summary</p>
+                                    </div>
+                                    <div class="summary-bills px-4 d-flex flex-column gap-2">
+                                        <div
+                                            class="summary-bill-list d-flex align-items-center gap-2 justify-content-between">
+                                            <p>Amlodipine 10 mg tab</p>
+                                            <div class="price">0.56</div>
+                                        </div>
+                                        <div
+                                            class="summary-bill-list d-flex align-items-center gap-2 justify-content-between">
+                                            <p>Tynelol</p>
+                                            <div class="price">0.36</div>
+                                        </div>
+                                    </div>
+                                    <div class="summary-total px-4 py-3">
+                                        <div
+                                            class="summary-bill-list d-flex align-items-center gap-2 justify-content-between">
+                                            <p>Total</p>
+                                            <div class="price">$0.92</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="ph-btn py-2" aria-label="">Add another card</a>
+                        </div>
+                    </div>
+                    <div
+                        class="com-btn d-flex align-items-center justify-content-between px-lg-5 px-3 flex-sm-row flex-column-reverse gap-2">
+                        <div class="back-btn">
+                            <a href="#" aria-label="" class="btn btn-gray">Back to Home</a>
+                        </div>
+                        <div class="next-btn">
+                            <a href="#" aria-label="" class="btn btn-primary">Pay</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transfer-box h-100 col-lg-8 col-12 bg-white pb-5">
+                    <div class="com-title text-center py-lg-4 px-3 py-3 ">
+                        <h1>Payment</h1>
+                    </div>
+                    <div class="transfer-content payment-content">
+                        <div class="py-check p-sm-5 p-4 d-flex flex-column gap-3">
+                            <div class="check-texts">
+                                <p>Credit Card Information</p>
+                            </div>
+                            <form action="" class="d-flex flex-column gap-sm-4 gap-3 text-left">
+                                <div class="i-fild d-flex flex-column gap-1 text-left align-items-start w-100">
+                                    <input type="tel" name="" placeholder="Card number" id="card_num">
+                                </div>
+                                <div class="i-filds d-flex gap-sm-4 gap-3 flex-column flex-sm-row">
+                                    <div class="i-fild d-flex flex-column gap-1 text-left align-items-start w-100">
+                                        <input type="text" name="" placeholder="MM/YY" id="">
+                                    </div>
+                                    <div class="i-fild d-flex flex-column gap-1 text-left align-items-start w-100">
+                                        <input type="password" name="" placeholder="CVV" id="" maxlength="3">
+                                    </div>
+                                </div>
+                                <div class="i-fild d-flex flex-column gap-1 text-left align-items-start w-100">
+                                    <input type="text" name="" placeholder="Name on card" id="">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div
+                        class="com-btn d-flex align-items-center justify-content-between px-lg-5 px-3 flex-sm-row flex-column-reverse gap-2">
+                        <div class="back-btn">
+                            <a href="#" aria-label="" class="btn btn-b">cancel</a>
+                        </div>
+                        <div class="next-btn">
+                            <a href="#" aria-label="" class="btn btn-primary">Save Card</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transfer-box h-100 col-lg-8 col-12 bg-white pb-5 ">
+                    <div class="com-title text-center py-lg-4 px-3 py-3 ">
+                        <h1>Consult Pharmacy</h1>
+                    </div>
+                    <div class="transfer-content payment-content">
+                        <div
+                            class="success-mess d-flex gap-2 align-items-center justify-content-start justify-content-sm-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.4663 6.68555L11.9992 14.1256L8.96094 11.0874" stroke="#216E4E"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M20.2858 10.116C21.1937 14.1087 19.1274 18.1815 15.3692 19.8067C11.6109 21.4319 7.22809 20.148 4.94082 16.7518C2.65355 13.3556 3.11139 8.81165 6.03019 5.94001C8.949 3.06837 13.4999 2.68461 16.8583 5.0269"
+                                    stroke="#216E4E" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <p>Payment has been successful!</p>
+                        </div>
+                        <div class="py-check p-sm-5 p-4 d-flex flex-column gap-3">
+                            <div class="check-texts d-flex flex-column gap-2">
+                                <p>Do you want to consult with pharmacist?</p>
+                                <div class="py-radio d-flex align-items-center gap-sm-5 gap-3 flex-wrap ">
+                                    <label class="d-flex gap-sm-2 gap-1 align-items-center">
+                                        <input type="radio" name="payment" id="payment-yes"> <span>Yes</span>
+                                    </label>
+                                    <label class="d-flex gap-sm-2 gap-1 align-items-center">
+                                        <input type="radio" name="payment" id="payment-no"> <span>No</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="pickup-method p-3 d-flex flex-column gap-3">
+                                <p>Select your pickup method</p>
+                                <div class="tabs d-flex align-items-center gap-3 flex-wrap">
+                                    <div class="tab d-flex align-items-center gap-2 active" data-tab="1">
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.49703 10.8232C3.11871 11.4415 2.24609 12.3359 2.24609 13.3345C2.24609 15.1991 5.2691 16.7109 8.99891 16.7109C12.7287 16.7109 15.7517 15.1991 15.7517 13.3345C15.7517 12.3359 14.8791 11.4415 13.5008 10.8232"
+                                                stroke="#F9FAFB" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M11.74 13.709C10.927 14.2381 9.9691 14.5003 8.99991 14.4593C8.03071 14.5003 7.07285 14.2381 6.25977 13.709"
+                                                stroke="#F9FAFB" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M10.6507 3.89035C11.3196 4.55921 11.5197 5.56514 11.1577 6.43908C10.7957 7.31301 9.94293 7.88284 8.997 7.88284C8.05106 7.88284 7.19827 7.31301 6.83629 6.43908C6.4743 5.56514 6.67441 4.55921 7.34331 3.89035C7.7818 3.45159 8.37669 3.20508 8.997 3.20508C9.61731 3.20508 10.2122 3.45159 10.6507 3.89035"
+                                                stroke="#F9FAFB" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00016 7.88086V12.2087" stroke="#F9FAFB" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        Kiosk Location
+                                    </div>
+                                    <div class="tab d-flex align-items-center gap-2" data-tab="2">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M1.125 8.4375L2.25 7.3125L3.375 8.4375" fill="white" />
+                                            <path d="M1.125 8.4375L2.25 7.3125L3.375 8.4375" stroke="white"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.875 9.5625L15.75 10.6875L14.625 9.5625" fill="white" />
+                                            <path d="M16.875 9.5625L15.75 10.6875L14.625 9.5625" stroke="white"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M3.50781 5.0916C5.36534 2.45968 8.82559 1.51007 11.7663 2.82518C14.707 4.14029 16.3061 7.35245 15.5828 10.4916"
+                                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M14.4881 12.9049C12.6306 15.5368 9.17032 16.4864 6.22959 15.1713C3.28886 13.8562 1.68978 10.644 2.41309 7.50488"
+                                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 6.375V8.625V6.375Z"
+                                                fill="white" />
+                                            <path d="M9 6.375V8.625" stroke="white" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M11.627 9.20874C11.627 8.88648 11.3657 8.62524 11.0435 8.62524H6.96045C6.63819 8.62524 6.37695 8.88648 6.37695 9.20874"
+                                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.12695 11.625H10.877C11.2912 11.625 11.627 11.2892 11.627 10.875V8.20125C11.6269 7.89733 11.5654 7.59656 11.4462 7.317L11.2377 6.83025C11.1197 6.55425 10.8486 6.37516 10.5485 6.375H7.45545C7.15503 6.37486 6.88352 6.554 6.76545 6.83025L6.5577 7.31625C6.43849 7.59581 6.37701 7.89658 6.37695 8.2005V10.875C6.37695 11.2892 6.71274 11.625 7.12695 11.625Z"
+                                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        Other Pickup
+                                    </div>
+                                </div>
+
+                                <div class="tab-content">
+                                    <div class="content active" data-content="1">
+                                        <div class="pick-meths d-flex flex-column gap-3">
+                                            <div class="pick-meth d-flex flex-column gap-2 w-100"
+                                                onclick="selectMethod(this)">
+                                                <div
+                                                    class="pick-title d-flex align-items-center justify-content-between">
+                                                    <p>MEDnRX EUREKA</p>
+                                                    <input type="radio" name="method" id="">
+                                                </div>
+                                                <div class="pick-text">
+                                                    <p>2441 O STREET, Eureka ‘’’’, CA, 95501</p>
+                                                </div>
+                                                <div class="dates d-flex align-items-center flex-wrap gap-2">
+                                                    <div class="date">16:30pm - 16:37pm</div>
+                                                    <div class="avail d-sm-block d-none">Express pickup facility
+                                                        available</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="pick-meth d-flex flex-column gap-2 w-100"
+                                                onclick="selectMethod(this)">
+                                                <div
+                                                    class="pick-title d-flex align-items-center justify-content-between">
+                                                    <p>BB0009 </p>
+                                                    <input type="radio" name="method" id="">
+                                                </div>
+                                                <div class="pick-text">
+                                                    <p>2356 Gold Meadow way, Suite 130, Rancho</p>
+                                                    <p>Cordova’’’’’’’’’, CA, 95670</p>
+                                                </div>
+                                                <div class="dates d-flex align-items-center flex-wrap gap-2">
+                                                    <div class="date">00:00am - 23:30pm</div>
+                                                    <div class="avail d-sm-block d-none">Express pickup facility
+                                                        available</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content" data-content="2">
+                                        <div class="pick-meth-sec d-flex flex-wrap align-items-start gap-y-3">
+                                            <div class="pick-meth-box col-12 col-md-6 d-flex align-items-start gap-2"
+                                                onclick="selectMethod(this)">
+                                                <input type="radio" name="no-select" id="">
+                                                <div class="pick-meth-text d-flex flex-column gap-1">
+                                                    <div class="pick-title ">
+                                                        <p>Lock Box Pickup </p>
+                                                    </div>
+                                                    <div class="avail">
+                                                        2738, Sunrise Blvd, Suite15, Rancho Cordova, <br>
+                                                        California, 95742 <br>
+                                                        7am-10pm
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="pick-meth-box col-12 col-md-6 d-flex align-items-start gap-2"
+                                                onclick="selectMethod(this)">
+                                                <input type="radio" name="no-select" id="">
+                                                <div class="pick-meth-text d-flex flex-column gap-1">
+                                                    <div class="pick-title ">
+                                                        <p>Pharmacy Pickup </p>
+                                                    </div>
+                                                    <div class="avail">
+                                                        2738, Sunrise Blvd, Suite15, Rancho Cordova,<br>
+                                                        California, 95742 <br>
+                                                        9am-7pm
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" com-btn d-flex align-items-center justify-content-between px-lg-5 px-3 flex-sm-row
+                                                flex-column-reverse gap-2">
+                        <div class="back-btn">
+                            <a href="#" aria-label="" class="btn btn-b">cancel</a>
+                        </div>
+                        <div class="next-btn">
+                            <a href="#" aria-label="" class="btn btn-primary">Submit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transfer-box h-100 col-lg-8 col-12 bg-white pb-5 ">
+                    <div class="com-title text-center py-lg-4 px-3 py-3 ">
+                        <h1>Prescription confirmation</h1>
+                    </div>
+                    <div class="transfer-content payment-content">
+                        <div class="side-step-content p-sm-5 p-4 d-flex flex-column gap-4 ">
+                            <div class="payment-confir d-flex flex-column gap-3">
+                                <div class="verify-title d-sm-none d-block gap-2 align-items-center">
+                                    <p>Prescription Info :</p>
+                                </div>
+                                <div
+                                    class="pre-confir d-flex align-items-center gap-3 flex-wrap justify-content-between">
+                                    <p>
+                                        <span>Prescription No. :</span>
+                                        0001
+                                    </p>
+                                    <p>
+                                        <span>Prescription Date :</span>
+                                        November 08, 2023
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="verify-boxs d-flex align-items-stretch gap-3 flex-wrap">
+                                <div class="pre-confir-box d-flex flex-column gap-3">
+                                    <div class="verify-title d-flex gap-2 align-items-center">
+                                        <p>Patient Information :</p>
+                                    </div>
+                                    <div class="verify-detil">
+                                        <ul class="d-flex flex-column gap-3">
+                                            <li><span>Name </span>
+                                                <span>: Jones Gray</span>
+                                            </li>
+                                            <li><span>Age</span>
+                                                <span>: 30</span>
+                                            </li>
+                                            <li><span>DOB</span>
+                                                <span>: 01/01/2000</span>
+                                            </li>
+                                            <li><span>Gender</span>
+                                                <span>: Male</span>
+                                            </li>
+                                            <li><span>Adress</span>
+                                                <span>: 1372 Payne Street, Richlands, VA, 24641</span>
+                                            </li>
+                                            <li><span>Allergies</span>
+                                                <span>: Sea food</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pre-confir-box d-flex flex-column gap-3">
+                                    <div class="verify-title d-flex gap-2 align-items-center">
+                                        <p>Pharmacy Information :</p>
+                                    </div>
+                                    <div class="verify-detil">
+                                        <ul class="d-flex flex-column gap-3">
+                                            <li><span>Email</span>
+                                                <span>: jgray@eomc.com</span>
+                                            </li>
+                                            <li><span>Phone</span>
+                                                <span>: 9773028714</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="verfiy-detail-table d-flex flex-column gap-2 d-sm-block d-none">
+                                <div class="verify-title d-flex gap-2 align-items-center">
+                                    <p>Medications :</p>
+                                </div>
+                                <div class="ver-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Prescription no.</th>
+                                                <th>Prescription date</th>
+                                                <th>Medication name</th>
+                                                <th>Frequency</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0001</td>
+                                                <td>10/08/2023</td>
+                                                <td>Amlodipine</td>
+                                                <td>10mg tablet</td>
+                                                <td class="active">Active</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0002</td>
+                                                <td>12/21/2023</td>
+                                                <td>Tynelol</td>
+                                                <td>5mg tablet</td>
+                                                <td>Completed</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="verfiy-detail-mobile pre-confir-box d-flex flex-column gap-3 d-sm-none d-block">
+                                <div class="verify-title d-flex gap-2 align-items-center">
+                                    <p>Medications :</p>
+                                </div>
+                                <div class="verify-de-boxs d-flex flex-column gap-3">
+                                    <div class="verify-de-box d-flex flex-column gap-3">
+                                        <div class="verify-left d-flex align-items-center justify-content-between">
+                                            <p>Amlodipine 10 mg tab</p>
+                                            <p><span>Active</span></p>
+                                        </div>
+                                        <div class="verify-right d-flex align-items-center justify-content-between">
+                                            <p>0001</p>
+                                            <p>10/08/2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="verify-de-box d-flex flex-column gap-3">
+                                        <div class="verify-left d-flex align-items-center justify-content-between">
+                                            <p>Amlodipine 10 mg tab</p>
+                                            <p>Completed</p>
+                                        </div>
+                                        <div class="verify-right d-flex align-items-center justify-content-between">
+                                            <p>0001</p>
+                                            <p>10/08/2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="verify-boxs d-flex align-items-stretch gap-3 flex-wrap">
+                                <div class="pre-confir-box payment-verify-box d-flex flex-column gap-3">
+                                    <div class="verify-title d-flex gap-2 align-items-center">
+                                        <p>Transferring From :</p>
+                                    </div>
+                                    <div class="verify-detil">
+                                        <div class="py-verify">
+                                            <p>MEDnRX EUREKA</p>
+                                        </div>
+                                        <div class="py-verify-text">
+                                            <p>2441 O STREET, Eureka ‘’’’, CA, 95501</p>
+                                            <p>016-973-4582</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pre-confir-box payment-verify-box d-flex flex-column gap-3">
+                                    <div class="verify-title d-flex gap-2 align-items-center">
+                                        <p>Transferring To :</p>
+                                    </div>
+                                    <div class="verify-detil">
+                                        <div class="py-verify">
+                                            <p>MEDnRX EMERYVILLE</p>
+                                        </div>
+                                        <div class="py-verify-text">
+                                            <p>2356 Gold Meadow way, Suite 130, Rancho</p>
+                                            <p>016-945-5482</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="com-btn d-flex align-items-center justify-content-between px-lg-5 px-3 flex-sm-row flex-column-reverse gap-2">
+                        <div class="back-btn">
+                            <a href="#" aria-label="" class="btn btn-gray">Back to Home</a>
+                        </div>
+                        <div class="next-btn">
+                            <a href="#" aria-label="" class="btn btn-primary">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- bootstarp js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="./js/script.js"></script>
+
+    <script>
+        document.querySelectorAll(".payment").forEach((paymentBox) => {
+            paymentBox.addEventListener("click", () => {
+                const radioInput = paymentBox.querySelector("input[type='radio']");
+                radioInput.checked = true;
+
+                document.querySelectorAll(".payment").forEach((payment) => {
+                    payment.classList.remove("active");
+                });
+
+                paymentBox.classList.add("active");
+            });
+        });
+
+        // tab
+        document.addEventListener("DOMContentLoaded", function () {
+            const tabs = document.querySelectorAll('.tab');
+            const contents = document.querySelectorAll('.content');
+
+            tabs[0].classList.add('active');
+            contents[0].classList.add('active');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function () {
+                    const target = this.getAttribute('data-tab');
+
+                    tabs.forEach(t => t.classList.remove('active'));
+                    contents.forEach(c => c.classList.remove('active'));
+
+                    this.classList.add('active');
+                    document.querySelector(`.content[data-content="${target}"]`).classList.add('active');
+                });
+            });
+        });
+
+        // onclick filld input
+        function selectMethod(element) {
+            const radioInput = element.querySelector('input[type="radio"]');
+            radioInput.checked = true;
+        }
+
+    </script>
+
+</body>
+
+</html>
